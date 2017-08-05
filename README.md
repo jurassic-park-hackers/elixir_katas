@@ -15,15 +15,15 @@ mix test.watch
 
 ## Build image Docker
 ```bash
-docker build -t elixir:1.5.1-alpine .
+docker build -t elixir_katas .
 ```
 
 ## Running tests in image Docker
 ```bash
-docker run --rm -t elixir:1.5.1-alpine mix test
+docker run --rm -t elixir_katas mix test
 ```
 
 ## Access image docker
 ```bash
-docker run --rm -it -t elixir:1.5.1-alpine /bin/sh
+docker run --rm -it -t elixir_katas /bin/sh
 ```
