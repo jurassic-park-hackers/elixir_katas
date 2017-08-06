@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+- docker build -t elixir_katas .
+
+script:
+  - docker run --rm -t elixir_katas mix test

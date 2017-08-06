@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jurassic-park-hackers/elixir_katas.svg?branch=master)](https://travis-ci.org/jurassic-park-hackers/elixir_katas)
+
 # Jurassic
 
 ## Getting started
